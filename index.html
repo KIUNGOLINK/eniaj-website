@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ENIAJ — Silent Power Archive</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Tenor+Sans&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+<!-- CURSOR -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-inner">
+    <div class="loader-logo">ENIAJ</div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+    <div class="loader-text">Silent Power Archive</div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="logo">ENIAJ</div>
+  <ul>
+    <li data-section="suits">Suits</li>
+    <li data-section="jackets">Jackets</li>
+    <li data-section="shirts">Shirts</li>
+    <li data-section="trousers">Trousers</li>
+    <li data-section="shop" class="nav-cta">Shop</li>
+  </ul>
+  <div class="nav-progress"><div class="nav-progress-fill"></div></div>
+</nav>
+
+<!-- ══════════════════════════════════════
+     HERO
+══════════════════════════════════════ -->
+<section class="hero" id="hero">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="video/hero.mp4" type="video/mp4">
+  </video>
+  <!-- Fallback gradient when no video -->
+  <div class="hero-fallback"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Paris — MMXXVI</div>
+    <h1 class="hero-title">ENIAJ</h1>
+    <p class="hero-sub">Silent Luxury.<br>Loud Success.</p>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </div>
+  <div class="hero-counter">
+    <span>01</span><div class="hero-counter-line"></div><span>20</span>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     MANIFESTO
+══════════════════════════════════════ -->
+<section class="manifesto" id="manifesto">
+  <div class="manifesto-inner">
+    <span class="manifesto-label">Manifeste</span>
+    <h2 class="manifesto-title">ENIAJ IS NOT FASHION</h2>
+    <div class="manifesto-body">
+      <p>It is <em>structure of presence</em>.</p>
+      <p>It is silence turned into power.</p>
+      <p>The uniform of those who <em>move with money</em>.</p>
+    </div>
+    <div class="manifesto-rule"></div>
+    <p class="manifesto-footer">Icon Line — Collection 01</p>
+  </div>
+  <div class="manifesto-bg-text">POWER</div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>Silent Luxury</span><span class="dot">◆</span>
+    <span>Made for Presence</span><span class="dot">◆</span>
+    <span>Built for Wealth</span><span class="dot">◆</span>
+    <span>Paris MMXXVI</span><span class="dot">◆</span>
+    <span>Power Dressing</span><span class="dot">◆</span>
+    <span>The New Uniform</span><span class="dot">◆</span>
+    <span>Silent Luxury</span><span class="dot">◆</span>
+    <span>Made for Presence</span><span class="dot">◆</span>
+    <span>Built for Wealth</span><span class="dot">◆</span>
+    <span>Paris MMXXVI</span><span class="dot">◆</span>
+    <span>Power Dressing</span><span class="dot">◆</span>
+    <span>The New Uniform</span><span class="dot">◆</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     SUITS CHAPTER
+══════════════════════════════════════ -->
+<div class="chapter-divider" id="suits">
+  <span class="chapter-num">I</span>
+  <h2>The Suits</h2>
+  <p>Five architectures of power</p>
+</div>
+
+<!-- 01 — BLACK AUTHORITY SUIT -->
+<section class="piece" data-num="01">
+  <div class="piece-chapter">
+    <span class="piece-num">01</span>
+    <h3 class="piece-name">Black Authority Suit</h3>
+    <span class="piece-cat">Suits</span>
+  </div>
+  <div class="piece-layout">
+    <div class="piece-image">
+      <img src="assets/suits/black-authority-suit.jpg" alt="Black Authority Suit" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>The Foundation of<br>Silent Power</h4>
+      <p class="piece-identity">The piece that started everything. Built for the individual who no longer needs validation.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Shoulder</span><span>0.8cm structured padding</span></div>
+        <div class="detail-row"><span>Lapel</span><span>Peak 7cm, angled upward</span></div>
+        <div class="detail-row"><span>Buttons</span><span>4 tonal matte sleeve</span></div>
+        <div class="detail-row"><span>Lining</span><span>Matte black satin, embossed</span></div>
+      </div>
+      <div class="piece-occasions">
+        <span>High-level meetings</span>
+        <span>Contract signing</span>
+        <span>Public presence</span>
+      </div>
+      <div class="piece-price">€ 690 <span>ENJ-001-BLK</span></div>
+    </div>
+  </div>
+  <div class="piece-story">
+    <blockquote>
+      Power is not volume.<br>
+      Power is control.<br>
+      <em>Every seam. Every proportion. Every shadow.</em><br>
+      Exists for one purpose: Presence.
+    </blockquote>
+  </div>
+  <div class="piece-details-grid">
+    <div class="detail-img"><img src="assets/suits/black-authority-detail-1.jpg" alt=""></div>
+    <div class="detail-img"><img src="assets/suits/black-authority-detail-2.jpg" alt=""></div>
+  </div>
+</section>
+
+<!-- 02 — MIDNIGHT BURGUNDY SUIT -->
+<section class="piece" data-num="02">
+  <div class="piece-chapter">
+    <span class="piece-num">02</span>
+    <h3 class="piece-name">Midnight Burgundy Suit</h3>
+    <span class="piece-cat">Suits</span>
+  </div>
+  <div class="piece-layout piece-layout--reverse">
+    <div class="piece-image">
+      <img src="assets/suits/midnight-burgundy.jpg" alt="Midnight Burgundy Suit" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>Luxury After Dark</h4>
+      <p class="piece-identity">Created for private rooms. Late meetings. Silent deals.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Fabric</span><span>Fine wool + micro satin</span></div>
+        <div class="detail-row"><span>Lapel</span><span>6.5cm slightly rounded</span></div>
+        <div class="detail-row"><span>Buttons</span><span>Deep bordeaux tonal</span></div>
+        <div class="detail-row"><span>Lining</span><span>Visible in movement only</span></div>
+      </div>
+      <div class="piece-occasions">
+        <span>Private clubs</span>
+        <span>Elite networking</span>
+        <span>Nocturnal</span>
+      </div>
+      <div class="piece-price">€ 720 <span>ENJ-002-BRG</span></div>
+    </div>
+  </div>
+  <div class="piece-story">
+    <blockquote>
+      The city sleeps.<br>
+      The ambitious don't.<br>
+      <em>Midnight Burgundy was created for those hours.</em>
+    </blockquote>
+  </div>
+  <div class="piece-details-grid">
+    <div class="detail-img"><img src="assets/suits/midnight-detail-1.jpg" alt=""></div>
+    <div class="detail-img"><img src="assets/suits/midnight-detail-2.jpg" alt=""></div>
+  </div>
+</section>
+
+<!-- 03 — EMERALD CONTROL SUIT -->
+<section class="piece" data-num="03">
+  <div class="piece-chapter">
+    <span class="piece-num">03</span>
+    <h3 class="piece-name">Emerald Control Suit</h3>
+    <span class="piece-cat">Suits</span>
+  </div>
+  <div class="piece-layout">
+    <div class="piece-image">
+      <img src="assets/suits/emerald-control.jpg" alt="Emerald Control Suit" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>Control Through Rarity</h4>
+      <p class="piece-identity">Not everyone can wear green. Not everyone should.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Fabric</span><span>Premium cold wool, textured</span></div>
+        <div class="detail-row"><span>Button</span><span>Single, slightly sub-standard</span></div>
+        <div class="detail-row"><span>Sleeve</span><span>Hidden internal button</span></div>
+        <div class="detail-row"><span>Label</span><span>Dark green embroidery, heart side</span></div>
+      </div>
+      <div class="piece-occasions">
+        <span>Strategic meetings</span>
+        <span>Investments</span>
+        <span>Negotiations</span>
+      </div>
+      <div class="piece-price">€ 750 <span>ENJ-003-EMR</span></div>
+    </div>
+  </div>
+  <div class="piece-story">
+    <blockquote>
+      This suit is not worn.<br>
+      <em>It is activated.</em>
+    </blockquote>
+  </div>
+  <div class="piece-details-grid">
+    <div class="detail-img"><img src="assets/suits/emerald-detail-1.jpg" alt=""></div>
+    <div class="detail-img"><img src="assets/suits/emerald-detail-2.jpg" alt=""></div>
+  </div>
+</section>
+
+<!-- 04 — IVORY PRESENCE SUIT -->
+<section class="piece" data-num="04">
+  <div class="piece-chapter">
+    <span class="piece-num">04</span>
+    <h3 class="piece-name">Ivory Presence Suit</h3>
+    <span class="piece-cat">Suits</span>
+  </div>
+  <div class="piece-layout piece-layout--reverse">
+    <div class="piece-image">
+      <img src="assets/suits/ivory-presence.jpg" alt="Ivory Presence Suit" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>Light Becomes Authority</h4>
+      <p class="piece-identity">Presence without aggression. Luxury without noise.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Color</span><span>Warm ivory — never pure white</span></div>
+        <div class="detail-row"><span>Fabric</span><span>Heavy, perfect drape</span></div>
+        <div class="detail-row"><span>Lapel</span><span>Ultra clean 5.5cm</span></div>
+        <div class="detail-row"><span>Buttons</span><span>Tonal ivory matte</span></div>
+      </div>
+      <div class="piece-occasions">
+        <span>Elite events</span>
+        <span>Summer luxury</span>
+        <span>Private ceremonies</span>
+      </div>
+      <div class="piece-price">€ 690 <span>ENJ-004-IVR</span></div>
+    </div>
+  </div>
+  <div class="piece-story">
+    <blockquote>
+      This suit does not dominate.<br>
+      <em>It calms the room.</em>
+    </blockquote>
+  </div>
+</section>
+
+<!-- 05 — SHADOW DOUBLE SUIT -->
+<section class="piece" data-num="05">
+  <div class="piece-chapter">
+    <span class="piece-num">05</span>
+    <h3 class="piece-name">Shadow Double Suit</h3>
+    <span class="piece-cat">Suits</span>
+  </div>
+  <div class="piece-layout">
+    <div class="piece-image">
+      <img src="assets/suits/shadow-double.jpg" alt="Shadow Double Suit" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>Duality Is Power</h4>
+      <p class="piece-identity">One silhouette. Two dimensions.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Layer</span><span>Invisible double internal</span></div>
+        <div class="detail-row"><span>Fabric</span><span>Black, micro light variation</span></div>
+        <div class="detail-row"><span>Seams</span><span>Intentionally offset</span></div>
+        <div class="detail-row"><span>Labels</span><span>Double: visible + hidden in sleeve</span></div>
+      </div>
+      <div class="piece-occasions">
+        <span>High pressure</span>
+        <span>Competitive environments</span>
+      </div>
+      <div class="piece-price">€ 780 <span>ENJ-005-SHD</span></div>
+    </div>
+  </div>
+  <div class="piece-story">
+    <blockquote>
+      <em>This suit is a textile mental strategy.</em>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     JACKETS CHAPTER
+══════════════════════════════════════ -->
+<div class="chapter-divider" id="jackets">
+  <span class="chapter-num">II</span>
+  <h2>The Jackets</h2>
+  <p>Five movements of control</p>
+</div>
+
+<!-- 06 — CROPPED COMMAND JACKET -->
+<section class="piece" data-num="06">
+  <div class="piece-chapter">
+    <span class="piece-num">06</span>
+    <h3 class="piece-name">Cropped Command Jacket</h3>
+    <span class="piece-cat">Jackets</span>
+  </div>
+  <div class="piece-layout piece-layout--reverse">
+    <div class="piece-image">
+      <img src="assets/jackets/cropped-command.jpg" alt="Cropped Command Jacket" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>Scene Energy</h4>
+      <p class="piece-identity">Immediate control of space.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Cut</span><span>Short, hip-length</span></div>
+        <div class="detail-row"><span>Closure</span><span>Invisible central zip</span></div>
+        <div class="detail-row"><span>Collar</span><span>Rigid structured, thin</span></div>
+        <div class="detail-row"><span>Sleeves</span><span>Slightly long — subtle drama</span></div>
+      </div>
+      <div class="piece-occasions">
+        <span>Nightlife</span>
+        <span>Artistic events</span>
+        <span>Public appearances</span>
+      </div>
+      <div class="piece-price">€ 520 <span>ENJ-006-CRP</span></div>
+    </div>
+  </div>
+  <div class="piece-story">
+    <blockquote><em>The piece of movement.</em></blockquote>
+  </div>
+</section>
+
+<!-- 07 — MILITARY SILENCE JACKET -->
+<section class="piece" data-num="07">
+  <div class="piece-chapter">
+    <span class="piece-num">07</span>
+    <h3 class="piece-name">Military Silence Jacket</h3>
+    <span class="piece-cat">Jackets</span>
+  </div>
+  <div class="piece-layout">
+    <div class="piece-image">
+      <img src="assets/jackets/military-silence.jpg" alt="Military Silence Jacket" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>Pure Discipline</h4>
+      <p class="piece-identity">Authority without noise.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Buttons</span><span>None visible</span></div>
+        <div class="detail-row"><span>Closure</span><span>Hidden magnetic</span></div>
+        <div class="detail-row"><span>Shoulder</span><span>Structured but soft</span></div>
+        <div class="detail-row"><span>Seams</span><span>Long vertical lines</span></div>
+      </div>
+      <div class="piece-occasions">
+        <span>Strategic business</span>
+        <span>Strict formal</span>
+      </div>
+      <div class="piece-price">€ 460 <span>ENJ-007-MSJ</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 — NIGHT PERFORMANCE BLAZER -->
+<section class="piece" data-num="08">
+  <div class="piece-chapter">
+    <span class="piece-num">08</span>
+    <h3 class="piece-name">Night Performance Blazer</h3>
+    <span class="piece-cat">Jackets</span>
+  </div>
+  <div class="piece-layout piece-layout--reverse">
+    <div class="piece-image">
+      <img src="assets/jackets/night-performance.jpg" alt="Night Performance Blazer" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>Controlled Fluidity</h4>
+      <p class="piece-identity">Natural presence without effort.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Fabric</span><span>Semi-flex</span></div>
+        <div class="detail-row"><span>Shoulder</span><span>Natural, unpadded</span></div>
+        <div class="detail-row"><span>Lining</span><span>Mobile satin</span></div>
+      </div>
+      <div class="piece-occasions">
+        <span>Evenings</span>
+        <span>Social events</span>
+      </div>
+      <div class="piece-price">€ 480 <span>ENJ-008-NPB</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 09 — MINIMAL PEAK BLAZER -->
+<section class="piece" data-num="09">
+  <div class="piece-chapter">
+    <span class="piece-num">09</span>
+    <h3 class="piece-name">Minimal Peak Blazer</h3>
+    <span class="piece-cat">Jackets</span>
+  </div>
+  <div class="piece-layout">
+    <div class="piece-image">
+      <img src="assets/jackets/minimal-peak.jpg" alt="Minimal Peak Blazer" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>Absolute Precision</h4>
+      <p class="piece-identity">The control of detail becomes power.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Lapel</span><span>Ultra thin geometric peak</span></div>
+        <div class="detail-row"><span>Cut</span><span>Millimeter-perfect</span></div>
+        <div class="detail-row"><span>Fabric</span><span>Zero excess textile</span></div>
+      </div>
+      <div class="piece-price">€ 440 <span>ENJ-009-MPB</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 — SATIN INNER JACKET -->
+<section class="piece" data-num="10">
+  <div class="piece-chapter">
+    <span class="piece-num">10</span>
+    <h3 class="piece-name">Satin Inner Jacket</h3>
+    <span class="piece-cat">Jackets</span>
+  </div>
+  <div class="piece-layout piece-layout--reverse">
+    <div class="piece-image">
+      <img src="assets/jackets/satin-inner.jpg" alt="Satin Inner Jacket" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>The Hidden Luxury</h4>
+      <p class="piece-identity">The luxury is not seen. It appears.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Exterior</span><span>Matte black</span></div>
+        <div class="detail-row"><span>Interior</span><span>Deep black satin</span></div>
+        <div class="detail-row"><span>Effect</span><span>Light only in movement</span></div>
+      </div>
+      <div class="piece-occasions">
+        <span>Private events</span>
+        <span>Nocturnal luxury</span>
+      </div>
+      <div class="piece-price">€ 560 <span>ENJ-010-SIJ</span></div>
+    </div>
+  </div>
+  <div class="piece-story">
+    <blockquote>
+      Luxury is not seen.<br>
+      <em>It appears.</em>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     SHIRTS CHAPTER
+══════════════════════════════════════ -->
+<div class="chapter-divider" id="shirts">
+  <span class="chapter-num">III</span>
+  <h2>The Shirts</h2>
+  <p>Five states of presence</p>
+</div>
+
+<!-- SHIRTS GRID -->
+<section class="grid-section">
+  <div class="grid-5">
+
+    <div class="grid-piece" data-num="11">
+      <div class="grid-piece-img"><img src="assets/shirts/black-night-shirt.jpg" alt="Black Night Shirt" loading="lazy"></div>
+      <div class="grid-piece-info">
+        <span class="grid-num">11</span>
+        <h4>Black Night Shirt</h4>
+        <p>The shirt that speaks without opening its mouth.</p>
+        <div class="grid-piece-price">€ 180</div>
+      </div>
+    </div>
+
+    <div class="grid-piece" data-num="12">
+      <div class="grid-piece-img"><img src="assets/shirts/ivory-silence-shirt.jpg" alt="Ivory Silence Shirt" loading="lazy"></div>
+      <div class="grid-piece-info">
+        <span class="grid-num">12</span>
+        <h4>Ivory Silence Shirt</h4>
+        <p>Nothing protrudes. Everything is balanced.</p>
+        <div class="grid-piece-price">€ 180</div>
+      </div>
+    </div>
+
+    <div class="grid-piece" data-num="13">
+      <div class="grid-piece-img"><img src="assets/shirts/burgundy-fluid-shirt.jpg" alt="Burgundy Fluid Shirt" loading="lazy"></div>
+      <div class="grid-piece-info">
+        <span class="grid-num">13</span>
+        <h4>Burgundy Fluid Shirt</h4>
+        <p>A controlled textile emotion.</p>
+        <div class="grid-piece-price">€ 200</div>
+      </div>
+    </div>
+
+    <div class="grid-piece" data-num="14">
+      <div class="grid-piece-img"><img src="assets/shirts/emerald-control-shirt.jpg" alt="Emerald Control Shirt" loading="lazy"></div>
+      <div class="grid-piece-info">
+        <span class="grid-num">14</span>
+        <h4>Emerald Control Shirt</h4>
+        <p>Wealth without signal.</p>
+        <div class="grid-piece-price">€ 200</div>
+      </div>
+    </div>
+
+    <div class="grid-piece" data-num="15">
+      <div class="grid-piece-img"><img src="assets/shirts/deep-collar-shirt.jpg" alt="Deep Collar Shirt" loading="lazy"></div>
+      <div class="grid-piece-info">
+        <span class="grid-num">15</span>
+        <h4>Deep Collar Shirt</h4>
+        <p>The gaze is directed toward presence.</p>
+        <div class="grid-piece-price">€ 165</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     TROUSERS CHAPTER
+══════════════════════════════════════ -->
+<div class="chapter-divider" id="trousers">
+  <span class="chapter-num">IV</span>
+  <h2>The Architecture</h2>
+  <p>Trousers & Outerwear</p>
+</div>
+
+<!-- TROUSERS GRID -->
+<section class="grid-section">
+  <div class="grid-3-wide">
+
+    <div class="grid-piece-wide" data-num="16">
+      <div class="grid-piece-img"><img src="assets/trousers/slim-straight.jpg" alt="Slim Straight Trousers" loading="lazy"></div>
+      <div class="grid-piece-info">
+        <span class="grid-num">16</span>
+        <h4>Slim Straight Trousers</h4>
+        <p>The invisible foundation of power.</p>
+        <div class="grid-piece-price">€ 280</div>
+      </div>
+    </div>
+
+    <div class="grid-piece-wide" data-num="17">
+      <div class="grid-piece-img"><img src="assets/trousers/stage-cut.jpg" alt="Stage Cut Trousers" loading="lazy"></div>
+      <div class="grid-piece-info">
+        <span class="grid-num">17</span>
+        <h4>Stage Cut Trousers</h4>
+        <p>Every step becomes intention.</p>
+        <div class="grid-piece-price">€ 300</div>
+      </div>
+    </div>
+
+    <div class="grid-piece-wide" data-num="18">
+      <div class="grid-piece-img"><img src="assets/trousers/high-control.jpg" alt="High Control Trousers" loading="lazy"></div>
+      <div class="grid-piece-info">
+        <span class="grid-num">18</span>
+        <h4>High Control Trousers</h4>
+        <p>The body adopts a power posture.</p>
+        <div class="grid-piece-price">€ 310</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- 19 — ENIAJ MINIMAL COAT -->
+<section class="piece piece--full" data-num="19">
+  <div class="piece-chapter">
+    <span class="piece-num">19</span>
+    <h3 class="piece-name">ENIAJ Minimal Coat</h3>
+    <span class="piece-cat">Outerwear</span>
+  </div>
+  <div class="piece-layout">
+    <div class="piece-image piece-image--tall">
+      <img src="assets/outerwear/minimal-coat.jpg" alt="ENIAJ Minimal Coat" loading="lazy">
+      <div class="piece-image-overlay"></div>
+    </div>
+    <div class="piece-text">
+      <h4>Vertical Authority</h4>
+      <p class="piece-identity">A silhouette that imposes silence.</p>
+      <div class="piece-details">
+        <div class="detail-row"><span>Cut</span><span>Long, perfectly straight</span></div>
+        <div class="detail-row"><span>Decoration</span><span>Absolute zero</span></div>
+        <div class="detail-row"><span>Collar</span><span>Thin, rigid</span></div>
+        <div class="detail-row"><span>Closure</span><span>Single invisible opening</span></div>
+        <div class="detail-row"><span>Rule</span><span>Never fully open in public</span></div>
+      </div>
+      <div class="piece-occasions">
+        <span>Over suits only</span>
+        <span>Absolute authority</span>
+      </div>
+      <div class="piece-price">€ 890 <span>ENJ-019-MCT</span></div>
+    </div>
+  </div>
+  <div class="piece-story">
+    <blockquote>
+      Never fully open in public.<br>
+      <em>The silhouette commands silence.</em>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     ICON PERFORMANCE SET — FINAL
+══════════════════════════════════════ -->
+<section class="icon-set" id="icon-set">
+  <div class="icon-set-bg"></div>
+  <div class="icon-set-content">
+    <span class="icon-set-eyebrow">20 — Final Piece</span>
+    <h2 class="icon-set-title">ICON<br>PERFORMANCE<br>SET</h2>
+    <div class="icon-set-rule"></div>
+    <p class="icon-set-body">
+      Coordinated complete set.<br>
+      Perfect balance top / bottom.<br>
+      Cut conceived as a sculpture.<br>
+      Double signature: nape + right hip.
+    </p>
+    <p class="icon-set-universe">
+      This is not an outfit.<br>
+      <em>It is a declaration of existence.</em>
+    </p>
+    <div class="icon-set-price">€ 1 290 <span>ENJ-020-ICN — ÉDITION LIMITÉE</span></div>
+    <a href="#shop" class="icon-set-cta">Acquire the Set</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     SHOP
+══════════════════════════════════════ -->
+<section class="shop" id="shop">
+  <div class="shop-header">
+    <span class="shop-label">The Shop</span>
+    <h2>Own the Silence</h2>
+  </div>
+  <div class="shop-grid">
+
+    <div class="shop-card">
+      <div class="shop-img"><img src="assets/suits/black-authority-suit.jpg" alt="" loading="lazy"></div>
+      <div class="shop-info">
+        <span class="shop-num">01</span>
+        <h4>Black Authority Suit</h4>
+        <div class="shop-bottom">
+          <span class="shop-price">€ 690</span>
+          <button class="shop-btn">Add to Collection</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop-card">
+      <div class="shop-img"><img src="assets/suits/midnight-burgundy.jpg" alt="" loading="lazy"></div>
+      <div class="shop-info">
+        <span class="shop-num">02</span>
+        <h4>Midnight Burgundy Suit</h4>
+        <div class="shop-bottom">
+          <span class="shop-price">€ 720</span>
+          <button class="shop-btn">Add to Collection</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop-card">
+      <div class="shop-img"><img src="assets/suits/emerald-control.jpg" alt="" loading="lazy"></div>
+      <div class="shop-info">
+        <span class="shop-num">03</span>
+        <h4>Emerald Control Suit</h4>
+        <div class="shop-bottom">
+          <span class="shop-price">€ 750</span>
+          <button class="shop-btn">Add to Collection</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop-card">
+      <div class="shop-img"><img src="assets/suits/ivory-presence.jpg" alt="" loading="lazy"></div>
+      <div class="shop-info">
+        <span class="shop-num">04</span>
+        <h4>Ivory Presence Suit</h4>
+        <div class="shop-bottom">
+          <span class="shop-price">€ 690</span>
+          <button class="shop-btn">Add to Collection</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop-card">
+      <div class="shop-img"><img src="assets/suits/shadow-double.jpg" alt="" loading="lazy"></div>
+      <div class="shop-info">
+        <span class="shop-num">05</span>
+        <h4>Shadow Double Suit</h4>
+        <div class="shop-bottom">
+          <span class="shop-price">€ 780</span>
+          <button class="shop-btn">Add to Collection</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop-card shop-card--featured">
+      <div class="shop-img"><img src="assets/outerwear/minimal-coat.jpg" alt="" loading="lazy"></div>
+      <div class="shop-info">
+        <span class="shop-num">20</span>
+        <h4>Icon Performance Set</h4>
+        <div class="shop-bottom">
+          <span class="shop-price shop-price--gold">€ 1 290</span>
+          <button class="shop-btn shop-btn--gold">Acquire</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     CLOSING MANIFESTO
+══════════════════════════════════════ -->
+<section class="closing">
+  <div class="closing-bg-text">ENIAJ</div>
+  <div class="closing-content">
+    <p class="closing-line">ENIAJ is not worn.</p>
+    <p class="closing-line closing-gold">It is entered.</p>
+    <div class="closing-rule"></div>
+    <span class="closing-sub">Paris MMXXVI — Silent Power Archive — Collection 01</span>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════ -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">ENIAJ</div>
+      <p>Silent Luxury for Money Makers</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h5>Collection</h5>
+        <a>Suits</a>
+        <a>Jackets</a>
+        <a>Shirts</a>
+        <a>Trousers</a>
+        <a>Outerwear</a>
+      </div>
+      <div class="footer-col">
+        <h5>Brand</h5>
+        <a>Manifesto</a>
+        <a>Atelier</a>
+        <a>Lookbook</a>
+        <a>Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Order</h5>
+        <a>Made to Measure</a>
+        <a>Shipping</a>
+        <a>Returns</a>
+        <a>Care</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>ENIAJ © 2026</span>
+    <span>Silent Power Archive — Collection 01</span>
+    <span>Paris, France</span>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
